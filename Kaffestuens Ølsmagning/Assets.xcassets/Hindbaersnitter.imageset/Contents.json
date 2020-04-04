@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "Hindbærsnitter-færdige4-august-2014-e1499279372250.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
