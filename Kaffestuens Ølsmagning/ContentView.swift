@@ -48,6 +48,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             MasterView().navigationBarTitle(Text("Oversigt"))
+            StartView()
         }.navigationViewStyle(DoubleColumnNavigationViewStyle())
             .accentColor(colorScheme == .dark ? .white : .black)
     }
@@ -124,6 +125,15 @@ struct DetailView: View {
                     Text("Velkommen til!")
                 }.navigationBarTitle(Text("Velkommen"))
             }
+        }
+    }
+}
+
+struct StartView: View {
+    var body: some View {
+
+        Group {
+            Text("Motherfucking start page!").font(.largeTitle)
         }
     }
 }
